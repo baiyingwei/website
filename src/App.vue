@@ -12,12 +12,9 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import "./style/common.scss";
+body{
+  background: url('../src/images/764240e1gy1fu3eqqm82rj21hc0nstdo.jpg') no-repeat;
+  cursor: url('../src/images/cursor.gif'),auto;
 }
 </style>

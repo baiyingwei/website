@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Hello from '../components/home/HelloWorld'//首页
-import Test from '../components/note/HelloWorld'//需要跳转的页面 给组件重新命名
+import Hello from '../pages/home/index'//首页
+import Test from '../pages/note/index'//需要跳转的页面 给组件重新命名
 
 Vue.use(Router)
 
